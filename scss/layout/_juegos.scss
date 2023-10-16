@@ -1,0 +1,36 @@
+/**pagina juegos**/
+.titulo-jue h1{
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+body .juegos {
+    color: aliceblue;
+}
+.list{
+    text-align: justify;
+    padding: 5px;
+}
+.articulos{
+    background-color:#767676b5;
+    border-radius: 9px;
+    margin-bottom: 50px;
+}
+.titulos{
+    background-color: black;
+    border-radius: 9px;
+    margin-right: 8px;
+}
+.aside{
+    margin: 0;
+    .articulo-aside{
+    margin: 0;
+    background-color:#767676b5;
+    border-radius: 9px;
+    position: sticky;
+    top: 0;
+    }
+    .titulo-aside{
+    background-color: black;
+    border-radius: 9px;
+    }
+}

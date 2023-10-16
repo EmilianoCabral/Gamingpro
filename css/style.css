@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+iframe {
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+/**Header**/
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.carousel-1 {
+  padding-top: 30px;
+}
+
+.titulo-prin {
+  padding-bottom: 44px;
+  padding-top: 44px;
+  font-family: "Young Serif", serif;
+  padding-left: 40px;
+}
+
+.fila-title {
+  text-align: center;
+  font-family: "Young Serif", serif;
+  font-size: 30px;
+}
+.fila-title h5 {
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+main {
+  background-color: #232D3F;
+}
+
+body .principal {
+  color: #EEEEEE;
+}
+
+article {
+  text-align: center;
+}
+
+main .cards {
+  padding-top: 1px;
+  padding-bottom: 50px;
+}
+
+.featurette-divider {
+  margin: 20px;
+}
+
+.portada-overlays img {
+  opacity: 0.7;
+}
+
+.card-overlays {
+  padding-bottom: 30px;
+}
+
+.middle-page {
+  background-color: rgba(108, 117, 125, 0.4117647059);
+  border-radius: 9px;
+}
+
+.analisis {
+  padding-top: 5px;
+  color: #EEEEEE;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+}
+
+.row-principal {
+  align-items: center;
+}
+
+main .col__imagen {
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.analisis .row {
+  align-items: center;
+}
+
+.analisis-img-apex-banner img {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.analisis-box-2 img {
+  width: 100%;
+}
+
+.analisis-box-3 img {
+  width: 100%;
+}
+
+.analisis-img-street-banner img {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.analisis-box-1 {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.analisis-box-2 p {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.analisis-box-3 p {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.skins-aki {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skins-aki h5 {
+  color: #EEEEEE;
+  font-size: 3rem;
+}
+
+.carousel-aki {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.titulo-not {
+  font-family: "Young Serif", serif;
+  font-size: 3rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+body .noticias {
+  color: aliceblue;
+}
+
+.noti-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-noti {
+  padding-top: 24px;
+}
+
+.aside {
+  position: sticky;
+  top: 0;
+}
+.aside .tarjetas {
+  margin-bottom: 4px;
+}
+
+.article {
+  background-color: rgba(128, 128, 128, 0.5294117647);
+  border-radius: 9px;
+}
+
+/**pagina juegos**/
+.titulo-jue h1 {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+body .juegos {
+  color: aliceblue;
+}
+
+.list {
+  text-align: justify;
+  padding: 5px;
+}
+
+.articulos {
+  background-color: rgba(118, 118, 118, 0.7098039216);
+  border-radius: 9px;
+  margin-bottom: 50px;
+}
+
+.titulos {
+  background-color: black;
+  border-radius: 9px;
+  margin-right: 8px;
+}
+
+.aside {
+  margin: 0;
+}
+.aside .articulo-aside {
+  margin: 0;
+  background-color: rgba(118, 118, 118, 0.7098039216);
+  border-radius: 9px;
+  position: sticky;
+  top: 0;
+}
+.aside .titulo-aside {
+  background-color: black;
+  border-radius: 9px;
+}
+
+body .pagina-hard {
+  color: aliceblue;
+}
+
+/**pie de pagina**/
+.pie-pagina .grup-1 {
+  color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #435B66;
+}
+.pie-pagina .grup-2 {
+  text-align: center;
+}
+.pie-pagina .box1 {
+  margin: 20px;
+  padding-top: 10px;
+}
+.pie-pagina .box1 img {
+  border-radius: 50px;
+  max-width: 200px;
+}
+.pie-pagina .box2 {
+  text-align: center;
+  color: #EEEEEE;
+  padding-top: 10px;
+  margin: 20px;
+}
+.pie-pagina .box3 {
+  text-align: center;
+  color: #EEEEEE;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.nav-footer {
+  background-color: #435B66;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .pie-pagina .grup-2 {
+    text-align: center;
+  }
+  .pie-pagina .grup-1 {
+    text-align: center;
+    flex-flow: column;
+    padding-top: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

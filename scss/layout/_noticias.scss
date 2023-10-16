@@ -1,0 +1,28 @@
+.titulo-not{
+    font-family: $letras-primarias;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+body .noticias{
+    color: aliceblue
+}
+.noti-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-noti{
+    padding-top: 24px;
+}
+.aside{
+    position: sticky;
+    top: 0;
+    .tarjetas{
+        margin-bottom: 4px;
+    }
+}
+.article{
+    background-color: #80808087;
+    border-radius: 9px;
+}

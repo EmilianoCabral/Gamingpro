@@ -1,0 +1,49 @@
+/**Header**/
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+.carousel-1{
+    padding-top: 30px;
+}
+.titulo-prin{
+    padding-bottom: 44px;
+    padding-top: 44px;
+    font-family: $letras-primarias;
+    padding-left: 40px;
+}
+.fila-title{
+    text-align: center;
+    font-family: $letras-primarias;
+    font-size: 30px;
+    h5{
+    font-size: 3rem;
+    padding-top: 50px;
+    }
+}
+main{
+    background-color: #232D3F;
+}
+body .principal{
+    color: #EEEEEE;
+}
+article {
+    text-align: center;
+}
+main .cards{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+.featurette-divider{
+    margin: 20px;
+}
+.portada-overlays img{
+    opacity:0.7;
+}
+.card-overlays{
+    padding-bottom: 30px;
+}
+.middle-page{
+    background-color: #6c757d69;
+    border-radius: 9px;
+}

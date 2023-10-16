@@ -1,0 +1,36 @@
+/**pie de pagina**/
+.pie-pagina{
+    .grup-1{
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #435B66;
+    }
+    .grup-2{
+    text-align: center;
+    }
+    .box1{
+    margin: 20px;
+    padding-top: 10px;
+    img{
+    border-radius: 50px;
+    max-width: 200px;
+    }
+    }
+    .box2{
+    text-align: center;
+    color: #EEEEEE;
+    padding-top: 10px;
+    margin: 20px;
+    }
+    .box3{
+    text-align: center;
+    color: #EEEEEE;
+    padding-top: 10px;
+    margin: 20px;
+    }
+}
+.nav-footer{
+    background-color: #435B66;
+}
