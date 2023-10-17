@@ -142,12 +142,25 @@ main .col__imagen {
 
 .skins-aki h5 {
   color: #EEEEEE;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  padding-bottom: 15px;
 }
 
 .carousel-aki {
   padding-bottom: 100px;
   padding-top: 100px;
+}
+
+.parrafo-aki {
+  color: #EEEEEE;
+}
+
+.titulo-galeria {
+  color: #EEEEEE;
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  padding-bottom: 15px;
 }
 
 .titulo-not {
