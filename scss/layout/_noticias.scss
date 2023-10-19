@@ -10,7 +10,6 @@ body .noticias{
 }
 .noti-img img{
     width: 100%;
-    object-fit: cover;
 }
 .card-noti{
     padding-top: 24px;
@@ -25,4 +24,19 @@ body .noticias{
 .article{
     background-color: #80808087;
     border-radius: 9px;
+}
+.card-title{
+    font-size: 2rem;
+    font-family: $letras-primarias;
+}
+.card-title-over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Young Serif", serif;
+    padding-top: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
 }

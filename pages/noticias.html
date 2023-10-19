@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../icons/icons8-dado-64.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="../css/style.css">
     <title>GAMINGPRO | Noticias</title>
-    <meta name="description" content="Explora las noticias más recientes, reseñas detalladas y las últimas novedades en el mundo de los videojuegos">
-    <meta name="keywords" content="información sobre videojuegos, actualizaciones de noticas, critica a juegos, experiencia en linea">
+    <meta name="description"
+        content="Explora las noticias más recientes, reseñas detalladas y las últimas novedades en el mundo de los videojuegos">
+    <meta name="keywords"
+        content="información sobre videojuegos, actualizaciones de noticas, critica a juegos, experiencia en linea">
 </head>
 
 <body>
@@ -23,7 +24,9 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <img src="../icons/icons8-dado-64.png" alt="">
+                    <div class="image-container">
+                        <img src="../icons/icons8-dado-64.png" alt="Dado" class="rotating-image">
+                    </div>
                     <a class="navbar-brand" href="../index.html">GAMINGPRO</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -61,6 +64,21 @@
     <!--cuerpo-->
     <main class="noticias">
         <div class="container">
+            <!--Prueba-->
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="../img/heimer.webp" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <div class="col-lg-6 px-0">
+                            <div class="lead my-3">
+                                <h5 class="card-title-over">Riot Games está comprometido en hacer la narrativa de
+                                    League of Legends más atractiva para los seguidores de la serie.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <hr class="featurette-divider">
             </div>
@@ -75,7 +93,7 @@
                         <p> Diablo estará disponible en Steam a partir del 17 de octubre!
                         </p>
                         <div>
-                            <img src="../img/diablo-iv.jpg" alt="">
+                            <img src="../img/diablo-iv.webp" alt="Diablo IV">
                         </div>
                     </article>
                     <div class="container">
@@ -89,7 +107,7 @@
                             premiado con un homenaje que solo un jugador había recibido hasta ahora
                         </p>
                         <div>
-                            <img src="../img/def-faker.jpeg" alt="">
+                            <img src="../img/def-faker.webp" alt="faker y def">
                         </div>
                     </article>
                     <div class="container">
@@ -98,8 +116,10 @@
                     <article class="article">
                         <h2>NOTAS DE LA VERSIÓN 13.19</h2>
                         <p>platos fuertes de la versión</p>
-                        <div>
-                            <img src="../img/LOL_13.19_Patch.jpg" alt="">
+                        <div class="image-container">
+                            <a>
+                                <img src="../img/LOL_13.19_Patch.webp" alt="lol parche">
+                            </a>
                         </div>
                     </article>
                     <div class="container">
@@ -109,14 +129,14 @@
                         <h2>NOTAS DE LA VERSIÓN 13.19 DE TEAMFIGHT TACTICS</h2>
                         <p>VERSIÓN EN BREVE</p>
                         <div>
-                            <img src="../img/TFT_SET9_Comms_Patch_13.19.jpg" alt="">
+                            <img src="../img/TFT_SET9_Comms_Patch_13.19.webp" alt="parche tft">
                         </div>
                     </article>
                 </div>
                 <div class="col-md-4">
                     <aside class="aside">
                         <h2>Análisis</h2>
-                        <div class="card tarjetas" style="width: 18rem;">
+                        <div class="card tarjetas">
                             <div class="card-body">
                                 <h5 class="card-title">Briar</h5>
                                 <p class="card-text">"SALUDOS. ¡SIENTO HAMBRE!. QUIERO DECIR, ¡TENGO NOMBRE! ME LLAMO
@@ -125,7 +145,7 @@
                                 <a href="../pages/analisis.html" class="card-link">Ver mas</a>
                             </div>
                         </div>
-                        <div class="card tarjetas" style="width: 18rem;">
+                        <div class="card tarjetas">
                             <div class="card-body">
                                 <h5 class="card-title">A.K.I</h5>
                                 <p class="card-text"> Aprendiz venenosa de un exmiembro de Shadaloo conocido como
@@ -134,7 +154,7 @@
                                 <a href="../pages/analisis.html#streetaki" class="card-link">Ver mas</a>
                             </div>
                         </div>
-                        <div class="card tarjetas" style="width: 18rem;">
+                        <div class="card tarjetas">
                             <div class="card-body">
                                 <h5 class="card-title">Apex legends</h5>
                                 <p class="card-text">¡EXTERMINA A TUS RIVALES EN EL NUEVO EVENTO!</p>
@@ -143,7 +163,7 @@
                         </div>
                         <div>
                             <h2>Juegos</h2>
-                            <div class="card" style="width: 18rem;">
+                            <div class="card">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">League of legends</li>
                                     <li class="list-group-item">Baldurs gate 3</li>

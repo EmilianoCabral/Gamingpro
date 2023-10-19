@@ -3,6 +3,23 @@
     display: flex;
     justify-content: end;
 }
+.image-container {
+    display: inline-block;
+}
+.rotating-image {
+    transition: transform 0.3s; /* Agregamos una transición para suavizar el giro */
+}
+.image-container:hover .rotating-image {
+    transform: rotate(360deg); /* Giramos la imagen 360 grados al pasar el mouse */
+}
+.nav-item a {
+    color: #ffffff; 
+    transition: color 0.3s, transform 0.2s;
+    &:hover {
+    color: #000000; 
+    transform: scale(1.1);
+    }
+}
 .carousel-1{
     padding-top: 30px;
 }

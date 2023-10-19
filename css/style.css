@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 * {
   padding: 0px;
@@ -16,6 +17,27 @@ iframe {
 .navbar-collapse {
   display: flex;
   justify-content: end;
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.rotating-image {
+  transition: transform 0.3s; /* Agregamos una transición para suavizar el giro */
+}
+
+.image-container:hover .rotating-image {
+  transform: rotate(360deg); /* Giramos la imagen 360 grados al pasar el mouse */
+}
+
+.nav-item a {
+  color: #ffffff;
+  transition: color 0.3s, transform 0.2s;
+}
+.nav-item a:hover {
+  color: #000000;
+  transform: scale(1.1);
 }
 
 .carousel-1 {
@@ -73,14 +95,14 @@ main .cards {
   border-radius: 9px;
 }
 
-.analisis {
+.analisis-briar {
   padding-top: 5px;
   color: #EEEEEE;
 }
 
-.card-title {
-  font-size: 2rem;
-  font-family: "Young Serif", serif;
+.analisis-titulo {
+  color: #EEEEEE;
+  font-size: 3rem;
 }
 
 .row-principal {
@@ -137,12 +159,12 @@ main .col__imagen {
 
 .skins-aki {
   text-align: center;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .skins-aki h5 {
   color: #EEEEEE;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Young Serif", serif;
   padding-bottom: 15px;
 }
@@ -163,6 +185,17 @@ main .col__imagen {
   padding-bottom: 15px;
 }
 
+.image-zoom {
+  overflow: hidden;
+  position: relative;
+}
+.image-zoom img {
+  transition: transform 0.3s;
+}
+.image-zoom img:hover {
+  transform: scale(1.1);
+}
+
 .titulo-not {
   font-family: "Young Serif", serif;
   font-size: 3rem;
@@ -177,7 +210,6 @@ body .noticias {
 
 .noti-img img {
   width: 100%;
-  object-fit: cover;
 }
 
 .card-noti {
@@ -195,6 +227,23 @@ body .noticias {
 .article {
   background-color: rgba(128, 128, 128, 0.5294117647);
   border-radius: 9px;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+}
+
+.card-title-over {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Young Serif", serif;
+  padding-top: 60px;
+  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(255, 255, 255, 0));
 }
 
 /**pagina juegos**/
@@ -243,7 +292,7 @@ body .pagina-hard {
   color: aliceblue;
 }
 
-/**pie de pagina**/
+/**pie de pagina*/
 .pie-pagina .grup-1 {
   color: #EEEEEE;
   display: flex;
@@ -279,6 +328,7 @@ body .pagina-hard {
   background-color: #435B66;
 }
 
+/* Media query para dispositivos móviles */
 @media (min-width: 320px) and (max-width: 767px) {
   .pie-pagina .grup-2 {
     text-align: center;
@@ -287,6 +337,41 @@ body .pagina-hard {
     text-align: center;
     flex-flow: column;
     padding-top: 5px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .card-title-over {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    max-width: 100%;
+    font-size: 1rem;
+    padding-top: 0;
+  }
+  .fila-title h5 {
+    font-size: 2rem;
+    padding-top: 0px;
+  }
+  .fila-title p {
+    font-size: 1rem;
+  }
+  .skins-aki {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .skins-aki h5 {
+    color: #EEEEEE;
+    font-size: 1rem;
+    font-family: "Young Serif", serif;
+  }
+}
+@media (min-width: 577px) and (max-width: 1200px) {
+  .card-title-over {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    max-width: 100%;
+    font-size: 2rem;
   }
 }
 

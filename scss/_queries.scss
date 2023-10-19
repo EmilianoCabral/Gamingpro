@@ -1,3 +1,4 @@
+/* Media query para dispositivos móviles */
 @media (min-width:320px) and (max-width:767px){
     .pie-pagina .grup-2{
         text-align: center;
@@ -6,5 +7,40 @@
         text-align: center;
         flex-flow: column;
         padding-top: 5px;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .card-title-over {
+        white-space: normal;
+        overflow: visible;  
+        text-overflow: clip; 
+        max-width: 100%; 
+        font-size: 1rem;
+        padding-top: 0;
+    }
+    .fila-title h5{
+    font-size: 2rem;
+    padding-top: 0px;
+    }
+    .fila-title p{
+        font-size: 1rem;
+    }
+    .skins-aki{
+        text-align: center;
+        padding-bottom: 50px;
+        h5{
+        color: #EEEEEE;
+        font-size: 1rem;
+        font-family: $letras-primarias;
+        }
+    } 
+}
+@media (min-width: 577px) and (max-width: 1200px) {
+    .card-title-over {
+        white-space: normal; 
+        overflow: visible;
+        text-overflow: clip;
+        max-width: 100%; 
+        font-size: 2rem; 
     }
 }
