@@ -7,10 +7,10 @@
     display: inline-block;
 }
 .rotating-image {
-    transition: transform 0.3s; /* Agregamos una transición para suavizar el giro */
+    transition: transform 0.3s; 
 }
 .image-container:hover .rotating-image {
-    transform: rotate(360deg); /* Giramos la imagen 360 grados al pasar el mouse */
+    transform: rotate(360deg); 
 }
 .nav-item a {
     color: #ffffff; 
@@ -27,12 +27,18 @@
     padding-bottom: 44px;
     padding-top: 44px;
     font-family: $letras-primarias;
-    padding-left: 40px;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 2vh;
+    border-block-end-style: none;
 }
 .fila-title{
     text-align: center;
     font-family: $letras-primarias;
     font-size: 30px;
+    padding-top: 14px;
+    border: 1px solid;
+    margin-bottom: 20px;
     h5{
     font-size: 3rem;
     padding-top: 50px;
@@ -50,9 +56,6 @@ article {
 main .cards{
     padding-top: 1px;
     padding-bottom: 50px;
-}
-.featurette-divider{
-    margin: 20px;
 }
 .portada-overlays img{
     opacity:0.7;

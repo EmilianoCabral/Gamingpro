@@ -1,42 +1,58 @@
-.titulo-not{
-    font-family: $letras-primarias;
-    font-size: 3rem;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-body .noticias{
-    color: aliceblue
-}
-.noti-img img{
-    width: 100%;
-}
-.card-noti{
-    padding-top: 24px;
-}
-.aside{
-    position: sticky;
-    top: 0;
-    .tarjetas{
-        margin-bottom: 4px;
+.noticias{
+    .card-title-over {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 15px;
+        font-family: "Young Serif", serif;
+        padding-top: 60px;
+        background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
     }
-}
-.article{
-    background-color: #80808087;
-    border-radius: 9px;
-}
-.card-title{
-    font-size: 2rem;
-    font-family: $letras-primarias;
-}
-.card-title-over {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 15px;
-    font-family: "Young Serif", serif;
-    padding-top: 60px;
-    background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
+    .seccion-noti{
+        border: 1px solid;
+        border-top: none;
+        border-left: none;
+        border-block-end: none;
+        img{
+            width: 100%;
+        }
+        .article{
+            background-color: #70809075;
+            border-radius: 9px;
+        }
+    }
+    color: aliceblue;
+    .titulo-not{
+        font-family: $letras-primarias;
+        font-size: 3rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        border: 1px solid;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #70809075;
+    }
+    .aside{
+        .card-title{
+            font-size: 2rem;
+            font-family: $letras-primarias;
+        }
+        position: sticky;
+        top: 0;
+        .tarjetas{
+            margin-bottom: 4px;
+        }
+        .titulo-card{
+            border: 1px solid;
+            font-family: $letras-primarias;
+            border-bottom-right-radius: 20px;
+            text-align: center;
+            border-right-width: thick;
+            border-top-left-radius: 20px;
+            background-color: #70809075;
+        }
+    }
 }

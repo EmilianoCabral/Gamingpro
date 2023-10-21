@@ -13,6 +13,11 @@ iframe {
   aspect-ratio: 16/9;
 }
 
+.featurette-divider {
+  margin: 20px;
+  color: #EEEEEE;
+}
+
 /**Header**/
 .navbar-collapse {
   display: flex;
@@ -24,11 +29,11 @@ iframe {
 }
 
 .rotating-image {
-  transition: transform 0.3s; /* Agregamos una transición para suavizar el giro */
+  transition: transform 0.3s;
 }
 
 .image-container:hover .rotating-image {
-  transform: rotate(360deg); /* Giramos la imagen 360 grados al pasar el mouse */
+  transform: rotate(360deg);
 }
 
 .nav-item a {
@@ -48,13 +53,19 @@ iframe {
   padding-bottom: 44px;
   padding-top: 44px;
   font-family: "Young Serif", serif;
-  padding-left: 40px;
+  border: 1px solid;
+  text-align: center;
+  margin-bottom: 2vh;
+  border-block-end-style: none;
 }
 
 .fila-title {
   text-align: center;
   font-family: "Young Serif", serif;
   font-size: 30px;
+  padding-top: 14px;
+  border: 1px solid;
+  margin-bottom: 20px;
 }
 .fila-title h5 {
   font-size: 3rem;
@@ -78,10 +89,6 @@ main .cards {
   padding-bottom: 50px;
 }
 
-.featurette-divider {
-  margin: 20px;
-}
-
 .portada-overlays img {
   opacity: 0.7;
 }
@@ -95,146 +102,104 @@ main .cards {
   border-radius: 9px;
 }
 
-.analisis-briar {
+body .analisis-briar {
   padding-top: 5px;
   color: #EEEEEE;
+  border: 1px solid;
 }
-
-.analisis-titulo {
-  color: #EEEEEE;
-  font-size: 3rem;
-}
-
-.row-principal {
-  align-items: center;
-}
-
-main .col__imagen {
+body .row-analisis .col__imagen {
   padding-top: 25px;
   text-align: center;
   padding-bottom: 25px;
 }
-
-.analisis .row {
-  align-items: center;
+body .row-analisis .card-title-briar {
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
 }
-
-.analisis-img-apex-banner img {
+body .analisis-apex .analisis-img-apex-banner img {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 100px;
 }
-
-.analisis-box-2 img {
+body .analisis-apex .analisis-titulo {
+  color: #EEEEEE;
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+}
+body .analisis-apex .analisis-box-1 {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+body .analisis-apex .analisis-box-2 .box2-img {
   width: 100%;
 }
-
-.analisis-box-3 img {
+body .analisis-apex .analisis-box-2 .box2-p {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+body .analisis-apex .analisis-box-3 .box3-img {
   width: 100%;
 }
+body .analisis-apex .analisis-box-3 .box3-p {
+  color: #EEEEEE;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
 
-.analisis-img-street-banner img {
+.analisis-street .analisis-img-street-banner img {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 71px;
 }
-
-.analisis-box-1 {
+.analisis-street .titulo-galeria {
+  font-family: "Young Serif", serif;
+  font-size: 3rem;
   color: #EEEEEE;
-  padding-bottom: 5px;
-  font-size: 1rem;
+  padding-bottom: 15px;
 }
-
-.analisis-box-2 p {
+.analisis-street .parrafo-aki {
   color: #EEEEEE;
-  padding-bottom: 5px;
-  font-size: 1rem;
 }
-
-.analisis-box-3 p {
-  color: #EEEEEE;
-  padding-bottom: 5px;
-  font-size: 1rem;
+.analisis-street .titulo-principal-aki {
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
 }
-
-.skins-aki {
+.analisis-street .skins-aki {
   text-align: center;
-  padding-bottom: 100px;
+  color: #EEEEEE;
+  font-family: "Young Serif", serif;
 }
-
-.skins-aki h5 {
+.analisis-street .skins-aki .titulo-video {
   color: #EEEEEE;
   font-size: 3rem;
   font-family: "Young Serif", serif;
   padding-bottom: 15px;
+  border: 1px solid;
 }
-
-.carousel-aki {
-  padding-bottom: 100px;
-  padding-top: 100px;
+.analisis-street .skins-aki .titulo-aki {
+  font-size: 3rem;
+  border: 1px solid;
 }
-
-.parrafo-aki {
-  color: #EEEEEE;
-}
-
-.titulo-galeria {
-  color: #EEEEEE;
+.analisis-street .skins-aki .titulo-skin {
   font-size: 2rem;
-  font-family: "Young Serif", serif;
-  padding-bottom: 15px;
 }
-
-.image-zoom {
+.analisis-street .skins-aki .image-zoom {
   overflow: hidden;
   position: relative;
 }
-.image-zoom img {
+.analisis-street .skins-aki .image-zoom img {
   transition: transform 0.3s;
 }
-.image-zoom img:hover {
+.analisis-street .skins-aki .image-zoom img:hover {
   transform: scale(1.1);
 }
 
-.titulo-not {
-  font-family: "Young Serif", serif;
-  font-size: 3rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-body .noticias {
+.noticias {
   color: aliceblue;
 }
-
-.noti-img img {
-  width: 100%;
-}
-
-.card-noti {
-  padding-top: 24px;
-}
-
-.aside {
-  position: sticky;
-  top: 0;
-}
-.aside .tarjetas {
-  margin-bottom: 4px;
-}
-
-.article {
-  background-color: rgba(128, 128, 128, 0.5294117647);
-  border-radius: 9px;
-}
-
-.card-title {
-  font-size: 2rem;
-  font-family: "Young Serif", serif;
-}
-
-.card-title-over {
+.noticias .card-title-over {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
@@ -245,8 +210,51 @@ body .noticias {
   padding-top: 60px;
   background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(255, 255, 255, 0));
 }
+.noticias .seccion-noti {
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-block-end: none;
+}
+.noticias .seccion-noti img {
+  width: 100%;
+}
+.noticias .seccion-noti .article {
+  background-color: rgba(112, 128, 144, 0.4588235294);
+  border-radius: 9px;
+}
+.noticias .titulo-not {
+  font-family: "Young Serif", serif;
+  font-size: 3rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border: 1px solid;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: rgba(112, 128, 144, 0.4588235294);
+}
+.noticias .aside {
+  position: sticky;
+  top: 0;
+}
+.noticias .aside .card-title {
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+}
+.noticias .aside .tarjetas {
+  margin-bottom: 4px;
+}
+.noticias .aside .titulo-card {
+  border: 1px solid;
+  font-family: "Young Serif", serif;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  border-right-width: thick;
+  border-top-left-radius: 20px;
+  background-color: rgba(112, 128, 144, 0.4588235294);
+}
 
-/**pagina juegos**/
 .titulo-jue h1 {
   padding-bottom: 44px;
   padding-top: 44px;
@@ -255,41 +263,53 @@ body .noticias {
 body .juegos {
   color: aliceblue;
 }
-
-.list {
-  text-align: justify;
-  padding: 5px;
-}
-
-.articulos {
+body .articulos {
   background-color: rgba(118, 118, 118, 0.7098039216);
   border-radius: 9px;
   margin-bottom: 50px;
 }
-
-.titulos {
+body .articulos .titulos {
   background-color: black;
   border-radius: 9px;
   margin-right: 8px;
 }
-
-.aside {
+body .articulos .list {
+  text-align: justify;
+  padding: 5px;
+}
+body .aside {
   margin: 0;
 }
-.aside .articulo-aside {
+body .aside .articulo-aside {
   margin: 0;
   background-color: rgba(118, 118, 118, 0.7098039216);
   border-radius: 9px;
   position: sticky;
   top: 0;
 }
-.aside .titulo-aside {
+body .aside .articulo-aside .titulo-aside {
   background-color: black;
   border-radius: 9px;
 }
 
 body .pagina-hard {
   color: aliceblue;
+}
+body .pagina-hard .titulo-principal {
+  text-align: center;
+  border: 1px solid white;
+  font-size: 3rem;
+  font-family: "Young Serif", serif;
+  margin-bottom: 20px;
+}
+body .pagina-hard .pcs {
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body .pagina-hard .pcs .titulos-pcs {
+  font-family: "Young Serif", serif;
+  font-size: 3rem;
 }
 
 /**pie de pagina*/
@@ -338,8 +358,6 @@ body .pagina-hard {
     flex-flow: column;
     padding-top: 5px;
   }
-}
-@media (min-width: 320px) and (max-width: 767px) {
   .card-title-over {
     white-space: normal;
     overflow: visible;
@@ -355,6 +373,15 @@ body .pagina-hard {
   .fila-title p {
     font-size: 1rem;
   }
+  .analisis-img-apex-banner img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .analisis-titulo {
+    color: #EEEEEE;
+    font-size: 2rem;
+  }
   .skins-aki {
     text-align: center;
     padding-bottom: 50px;
@@ -363,6 +390,15 @@ body .pagina-hard {
     color: #EEEEEE;
     font-size: 1rem;
     font-family: "Young Serif", serif;
+  }
+  .carousel-aki {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .analisis-img-street-banner img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 43px;
   }
 }
 @media (min-width: 577px) and (max-width: 1200px) {

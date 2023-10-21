@@ -1,3 +1,19 @@
 body .pagina-hard{
     color: aliceblue;
+    .titulo-principal{
+        text-align: center;
+        border: 1px solid white;
+        font-size: 3rem;
+        font-family: $letras-primarias;
+        margin-bottom: 20px;
+    }
+    .pcs{
+        border: 1px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .titulos-pcs{
+            font-family: $letras-primarias;
+            font-size: 3rem;
+        }
+    }
 }
