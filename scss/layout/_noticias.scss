@@ -1,15 +1,4 @@
 .noticias{
-    .card-title-over {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 100%;
-        font-size: 3rem;
-        text-align: center;
-        padding-top: 15px;
-        font-family: "Young Serif", serif;
-        padding-top: 60px;
-        background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
-    }
     .seccion-noti{
         border: 1px solid;
         border-top: none;
@@ -56,3 +45,13 @@
         }
     }
 }
+.card-title-over {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        font-family: "Young Serif", serif;
+        padding-top: 60px;
+        background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
+    }

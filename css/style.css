@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 * {
   padding: 0px;
@@ -199,17 +198,6 @@ body .analisis-apex .analisis-box-3 .box3-p {
 .noticias {
   color: aliceblue;
 }
-.noticias .card-title-over {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 15px;
-  font-family: "Young Serif", serif;
-  padding-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(255, 255, 255, 0));
-}
 .noticias .seccion-noti {
   border: 1px solid;
   border-top: none;
@@ -253,6 +241,17 @@ body .analisis-apex .analisis-box-3 .box3-p {
   border-right-width: thick;
   border-top-left-radius: 20px;
   background-color: rgba(112, 128, 144, 0.4588235294);
+}
+
+.card-title-over {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Young Serif", serif;
+  padding-top: 60px;
+  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(255, 255, 255, 0));
 }
 
 .titulo-jue h1 {
@@ -348,7 +347,6 @@ body .pagina-hard .pcs .titulos-pcs {
   background-color: #435B66;
 }
 
-/* Media query para dispositivos móviles */
 @media (min-width: 320px) and (max-width: 767px) {
   .pie-pagina .grup-2 {
     text-align: center;
@@ -373,6 +371,10 @@ body .pagina-hard .pcs .titulos-pcs {
   .fila-title p {
     font-size: 1rem;
   }
+  .card-title-briar {
+    font-size: 2rem !important;
+    font-family: "Young Serif", serif;
+  }
   .analisis-img-apex-banner img {
     width: 100%;
     padding-top: 50px;
@@ -380,7 +382,7 @@ body .pagina-hard .pcs .titulos-pcs {
   }
   .analisis-titulo {
     color: #EEEEEE;
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   .skins-aki {
     text-align: center;
@@ -391,9 +393,30 @@ body .pagina-hard .pcs .titulos-pcs {
     font-size: 1rem;
     font-family: "Young Serif", serif;
   }
+  .titulo-principal-aki {
+    font-size: 2rem !important;
+    font-family: "Young Serif", serif;
+  }
+  .titulo-galeria {
+    font-family: "Young Serif", serif;
+    font-size: 2rem !important;
+    color: #EEEEEE;
+    padding-bottom: 15px;
+  }
+  .titulo-aki {
+    font-size: 2rem !important;
+    border: 1px solid;
+  }
   .carousel-aki {
     padding-bottom: 0px;
     padding-top: 0px;
+  }
+  .titulo-video {
+    color: #EEEEEE;
+    font-size: 2rem !important;
+    font-family: "Young Serif", serif;
+    padding-bottom: 15px;
+    border: 1px solid;
   }
   .analisis-img-street-banner img {
     width: 100%;
