@@ -1,5 +1,85 @@
 
 @media (min-width:320px) and (max-width:767px){
+    /*home*/
+    .titulo-prin{
+        font-size: 40px;
+    }
+    .sub-titulo{
+        font-size: 40px;
+    }
+    .fila-title h5{
+    font-size: 2rem;
+    padding-top: 0px;
+    }
+    .boton{
+        margin-bottom:15px ;
+    }
+    /*fin*/
+    /*Analisis*/
+    .pasiva-name{
+        font-size: 14px;
+    }
+    .q-name{
+        font-size: 14px;
+    }
+    .w-name{
+        font-size: 14px;
+    }
+    .E-name{
+        font-size: 14px;
+    }
+    .R-name{
+        font-size: 14px;
+    }
+    .navbar-brand{
+        font-size: 22px;
+    }
+    body .analisis-apex .analisis-img-apex-banner img {
+        padding-bottom: 0px;
+    }
+    body .analisis-apex .analisis-titulo{
+        margin-top: 40px;
+    }
+    body .analisis-apex .analisis-box-1{
+        font-size: 14px;
+        padding-top: 0px; 
+        padding-bottom: 0px;
+    }
+    body .analisis-apex .analisis-box-2 .box2-p{
+        font-size: 14px;
+    }
+    body .analisis-apex .analisis-box-3 .box3-p{
+        font-size: 14px;
+    }
+    .analisis-street .parrafo-aki{
+        font-size: 14px;
+    }
+    /*hardware*/
+    body .pagina-hard .titulo-principal{
+        font-size: 3rem;
+    }
+    body .pagina-hard .pcs .titulos-pcs{
+        font-size: 2rem;
+    }
+    /*juegos*/
+    body .juegos .titulo-jue h1{
+        font-size: 2rem;
+    }
+    body .articulos .list{
+        margin: 15px;
+        font-size: 14px;
+    }
+    /*lanzamientos*/
+    .lanzamientos .title-principal-lanzamientos{
+        font-size: 2rem;
+    }
+    .card-text-l{
+        font-size: 14px;
+    }
+    /*noticias*/
+    .noticias .titulo-not{
+        font-size: 2rem;
+    }
     .pie-pagina .grup-2{
         text-align: center;
     }
@@ -15,10 +95,6 @@
         max-width: 100%; 
         font-size: 1rem;
         padding-top: 0;
-    }
-    .fila-title h5{
-    font-size: 2rem;
-    padding-top: 0px;
     }
     .fila-title p{
         font-size: 1rem;

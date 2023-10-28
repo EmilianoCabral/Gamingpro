@@ -1,24 +1,18 @@
-/**Header**/
-.navbar-collapse{
-    display: flex;
-    justify-content: end;
-}
-.image-container {
-    display: inline-block;
-}
-.rotating-image {
-    transition: transform 0.3s; 
-}
-.image-container:hover .rotating-image {
-    transform: rotate(360deg); 
-}
-.nav-item a {
-    color: #ffffff; 
-    transition: color 0.3s, transform 0.2s;
-    &:hover {
-    color: #000000; 
-    transform: scale(1.1);
+.principal{
+    .cards{
+    padding-top: 1px;
+    padding-bottom: 50px;
     }
+    .sub-titulo{
+    font-family: $letras-primarias;
+    font-size: 80px;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 23px;
+    margin-top: 71px;
+    border-bottom: none;
+    }
+
 }
 .carousel-1{
     padding-top: 30px;
@@ -27,9 +21,10 @@
     padding-bottom: 44px;
     padding-top: 44px;
     font-family: $letras-primarias;
+    font-size: 80px;
     border: 1px solid;
     text-align: center;
-    margin-bottom: 2vh;
+    margin-bottom: 8px;
     border-block-end-style: none;
 }
 .fila-title{
@@ -41,22 +36,25 @@
     margin-bottom: 20px;
     h5{
     font-size: 3rem;
-    padding-top: 50px;
+    }
+    .box-contenido-1{
+        @extend %flex;
+    }
+    .box-contenido-2{
+        @extend %flex;
+    }
+    .box-contenido-3{
+        @extend %flex;
     }
 }
-main{
-    background-color: #232D3F;
-}
+
 body .principal{
     color: #EEEEEE;
 }
 article {
     text-align: center;
 }
-main .cards{
-    padding-top: 1px;
-    padding-bottom: 50px;
-}
+main 
 .portada-overlays img{
     opacity:0.7;
 }
@@ -64,6 +62,5 @@ main .cards{
     padding-bottom: 30px;
 }
 .middle-page{
-    background-color: #6c757d69;
     border-radius: 9px;
 }

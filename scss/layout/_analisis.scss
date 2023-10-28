@@ -9,13 +9,32 @@ body {
             padding-top: 25px;
             text-align: center;
             padding-bottom: 25px;
+            border: 1px solid;
         }
         .card-title-briar {
             font-size: 3rem;
-            font-family: $letras-primarias;
+            font-family: 'Brygada 1918', serif;
+            margin: 25px;
+        }
+        .pasiva-name{
+            margin: 25px;
+        }
+        .q-name{
+            margin: 25px;
+        }
+        .w-name{
+            margin: 25px;
+        }
+        .E-name{
+            margin: 25px;
+        }
+        .R-name{
+            margin: 25px
         }
     }
     .analisis-apex {
+        border: 1px solid;
+        color: white;
         .analisis-img-apex-banner img {
             width: 100%;
             padding-top: 50px;
@@ -23,13 +42,18 @@ body {
         }
         .analisis-titulo {
             color: #EEEEEE;
-            font-size: 3rem;
-            font-family: $letras-primarias;
+        font-size: 4rem;
+        font-family: "Brygada 1918", serif;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid;
+        margin-top: 90px;
         }
         .analisis-box-1 {
             color: #EEEEEE;
+            padding-top: 5px;
             padding-bottom: 5px;
-            font-size: 1rem;
+            font-size: 17px;
         }
         .analisis-box-2 {
             .box2-img {
@@ -37,8 +61,9 @@ body {
             }
             .box2-p {
                 color: #EEEEEE;
-                padding-bottom: 5px;
-                font-size: 1rem;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 17px;
             }
         }
         .analisis-box-3 {
@@ -47,13 +72,17 @@ body {
             }
             .box3-p {
                 color: #EEEEEE;
-                padding-bottom: 5px;
-                font-size: 1rem;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 17px;
             }
             }
         }
     }
     .analisis-street{
+        border: 1px solid;
+        color: white;
+        margin-bottom: 20px;
         .analisis-img-street-banner img {
             width: 100%;
             padding-top: 50px;
@@ -61,16 +90,22 @@ body {
         }
         .titulo-galeria {
             font-family: $letras-primarias;
-            font-size: 3rem;
+            font-size: 4rem;
             color: #EEEEEE;
-            padding-bottom: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            border: 1px solid;
         }
         .parrafo-aki {
             color: #EEEEEE;
+            padding-top: 5px;
+            padding-bottom: 65px;
+            font-size: 20px;
             }
         .titulo-principal-aki {
-            font-size: 3rem;
+            font-size: 4rem;
             font-family: $letras-primarias;
+            margin-bottom: 15px;
         }
         .skins-aki {
             text-align: center;
@@ -78,14 +113,16 @@ body {
             font-family: $letras-primarias;
             .titulo-video {
                 color: #EEEEEE;
-                font-size: 3rem;
+                font-size: 4rem;
                 font-family: $letras-primarias;
-                padding-bottom: 15px;
+                padding: 15px;
                 border: 1px solid;
             }
             .titulo-aki {
-                font-size: 3rem;
+                font-size: 4rem;
                 border: 1px solid;
+                padding: 15px;
+                margin-top: 20px;
             }
             .titulo-skin {
                 font-size: 2rem;

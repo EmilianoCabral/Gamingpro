@@ -4,6 +4,7 @@
     box-sizing: border-box ;
 }
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&display=swap');
 iframe{
     display: block;
     margin:1em auto;
@@ -13,4 +14,8 @@ iframe{
 .featurette-divider{
     margin: 20px;
     color: #EEEEEE;
+}
+main{
+    background-image: url(../img/LeT’s\ play-fondo.png);
+    background-attachment: fixed;
 }

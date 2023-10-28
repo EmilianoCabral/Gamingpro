@@ -3,7 +3,7 @@ body .pagina-hard{
     .titulo-principal{
         text-align: center;
         border: 1px solid white;
-        font-size: 3rem;
+        font-size: 5rem;
         font-family: $letras-primarias;
         margin-bottom: 20px;
     }
@@ -14,6 +14,16 @@ body .pagina-hard{
         .titulos-pcs{
             font-family: $letras-primarias;
             font-size: 3rem;
+            margin: 30px;
         }
+    }
+    .cont-pc-basica{
+        margin: 30px;
+    }
+    .cont-pc-elite{
+        margin: 30px;
+    }
+    .cont-pc-xtreme{
+        margin: 30px;
     }
 }

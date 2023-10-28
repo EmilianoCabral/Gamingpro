@@ -1,9 +1,12 @@
 @import 'variables';
 @import 'base/generales';
+@import 'base/extend';
 @import 'layout/home';
+@import 'layout/header';
 @import 'layout/analisis';
 @import 'layout/noticias';
 @import 'layout/juegos';
+@import 'layout/lanzamientos';
 @import 'layout/hardware';
 @import 'layout/footer';
 @import 'queries';

@@ -1,10 +1,16 @@
-.titulo-jue h1{
-    padding-bottom: 44px;
-    padding-top: 44px;
-}
+
 body{
     .juegos {
         color: aliceblue;
+        .titulo-jue h1{
+            padding-bottom: 44px;
+            padding-top: 44px;
+            font-family: $letras-primarias;
+            font-size: 5rem;
+            text-align: center;
+            border: 1px solid;
+            margin-bottom: 30px;
+        }
     }
     .articulos{
         background-color:#767676b5;
@@ -17,7 +23,7 @@ body{
         }
         .list{
             text-align: justify;
-            padding: 5px;
+            margin: 24px;
         }
     }
     .aside{
@@ -28,6 +34,10 @@ body{
         border-radius: 9px;
         position: sticky;
         top: 0;
+        .menu{
+            color: white;
+            text-decoration: none;
+        }
         .titulo-aside{
             background-color: black;
             border-radius: 9px;
