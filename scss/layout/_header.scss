@@ -1,29 +1,29 @@
-.navbar{
-    .navbar-brand{
-        font-size: 2rem;
-    }
-    .navbar-collapse{
-        display: flex;
-        justify-content: end;
-    }
-    .image-container {
-        display: inline-block;
-    }
-    .rotating-image {
-        transition: transform 0.3s; 
-    }
-    .image-container:hover .rotating-image {
-        transform: rotate(360deg); 
-    }
-    .nav-item a {
-        color: #ffffff; 
-        transition: color 0.3s, transform 0.2s;
-        &:hover {
-        color: #000000; 
-        transform: scale(1.1);
-    }
-    }
+
+.navbar-brand{
+    font-size: 2rem;
 }
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+.image-container {
+    display: inline-block;
+}
+.rotating-image {
+    transition: transform 0.3s; 
+}
+.image-container:hover .rotating-image {
+transform: rotate(360deg); 
+}
+.nav-item a {
+    color: #ffffff; 
+    transition: color 0.3s, transform 0.2s;
+    &:hover {
+    color: #000000; 
+    transform: scale(1.1);
+}
+}
+
 
 
 

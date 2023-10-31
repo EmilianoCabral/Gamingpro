@@ -95,27 +95,32 @@ main {
   border-radius: 9px;
 }
 
-.navbar .navbar-brand {
+.navbar-brand {
   font-size: 2rem;
 }
-.navbar .navbar-collapse {
+
+.navbar-collapse {
   display: flex;
   justify-content: end;
 }
-.navbar .image-container {
+
+.image-container {
   display: inline-block;
 }
-.navbar .rotating-image {
+
+.rotating-image {
   transition: transform 0.3s;
 }
-.navbar .image-container:hover .rotating-image {
+
+.image-container:hover .rotating-image {
   transform: rotate(360deg);
 }
-.navbar .nav-item a {
+
+.nav-item a {
   color: #ffffff;
   transition: color 0.3s, transform 0.2s;
 }
-.navbar .nav-item a:hover {
+.nav-item a:hover {
   color: #000000;
   transform: scale(1.1);
 }
