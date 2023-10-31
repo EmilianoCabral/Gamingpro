@@ -23,31 +23,32 @@ main {
   background-attachment: fixed;
 }
 
-.fila-title .box-contenido-3, .fila-title .box-contenido-2, .fila-title .box-contenido-1 {
+.principal .fila-title .box-contenido-3, .principal .fila-title .box-contenido-2, .principal .fila-title .box-contenido-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.principal {
+  color: #EEEEEE;
+}
 .principal .cards {
   padding-top: 1px;
   padding-bottom: 50px;
 }
 .principal .sub-titulo {
   font-family: "Brygada 1918", serif;
-  font-size: 80px;
+  font-size: 73px;
   text-align: center;
   border: 1px solid;
   margin-bottom: 23px;
   margin-top: 71px;
   border-bottom: none;
 }
-
-.carousel-1 {
+.principal .carousel-1 {
   padding-top: 30px;
 }
-
-.titulo-prin {
+.principal .titulo-prin {
   padding-bottom: 44px;
   padding-top: 44px;
   font-family: "Brygada 1918", serif;
@@ -57,8 +58,7 @@ main {
   margin-bottom: 8px;
   border-block-end-style: none;
 }
-
-.fila-title {
+.principal .fila-title {
   text-align: center;
   font-family: "Brygada 1918", serif;
   font-size: 30px;
@@ -66,57 +66,58 @@ main {
   border: 1px solid;
   margin-bottom: 20px;
 }
-.fila-title h5 {
+.principal .fila-title p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.principal .fila-title h5 {
   font-size: 3rem;
 }
-body .principal {
-  color: #EEEEEE;
+.principal .fila-title .box-contenido-1 h3 {
+  font-size: 50px;
 }
-
-article {
+.principal .fila-title .box-contenido-2 h3 {
+  font-size: 50px;
+}
+.principal .fila-title .box-contenido-3 h3 {
+  font-size: 50px;
+}
+.principal article {
   text-align: center;
 }
-
-main .portada-overlays img {
+.principal .portada-overlays img {
   opacity: 0.7;
 }
-
-.card-overlays {
+.principal .card-overlays {
   padding-bottom: 30px;
 }
-
-.middle-page {
+.principal .middle-page {
   border-radius: 9px;
 }
 
-.navbar-collapse {
+.navbar .navbar-brand {
+  font-size: 2rem;
+}
+.navbar .navbar-collapse {
   display: flex;
   justify-content: end;
 }
-
-.image-container {
+.navbar .image-container {
   display: inline-block;
 }
-
-.rotating-image {
+.navbar .rotating-image {
   transition: transform 0.3s;
 }
-
-.image-container:hover .rotating-image {
+.navbar .image-container:hover .rotating-image {
   transform: rotate(360deg);
 }
-
-.nav-item a {
+.navbar .nav-item a {
   color: #ffffff;
   transition: color 0.3s, transform 0.2s;
 }
-.nav-item a:hover {
+.navbar .nav-item a:hover {
   color: #000000;
   transform: scale(1.1);
-}
-
-.navbar-brand {
-  font-size: 2rem;
 }
 
 body .analisis-briar {
@@ -131,24 +132,29 @@ body .row-analisis .col__imagen {
   border: 1px solid;
 }
 body .row-analisis .card-title-briar {
-  font-size: 3rem;
+  font-size: 80px;
   font-family: "Brygada 1918", serif;
   margin: 25px;
 }
 body .row-analisis .pasiva-name {
   margin: 25px;
+  font-size: 20px;
 }
 body .row-analisis .q-name {
   margin: 25px;
+  font-size: 20px;
 }
 body .row-analisis .w-name {
   margin: 25px;
+  font-size: 20px;
 }
 body .row-analisis .E-name {
   margin: 25px;
+  font-size: 20px;
 }
 body .row-analisis .R-name {
   margin: 25px;
+  font-size: 20px;
 }
 body .analisis-apex {
   border: 1px solid;
@@ -161,7 +167,7 @@ body .analisis-apex .analisis-img-apex-banner img {
 }
 body .analisis-apex .analisis-titulo {
   color: #EEEEEE;
-  font-size: 4rem;
+  font-size: 73px;
   font-family: "Brygada 1918", serif;
   padding: 5px;
   text-align: center;
@@ -218,7 +224,7 @@ body .analisis-apex .analisis-box-3 .box3-p {
   font-size: 20px;
 }
 .analisis-street .titulo-principal-aki {
-  font-size: 4rem;
+  font-size: 73px;
   font-family: "Brygada 1918", serif;
   margin-bottom: 15px;
 }
@@ -271,10 +277,14 @@ body .analisis-apex .analisis-box-3 .box3-p {
   background-color: rgba(112, 128, 144, 0.4588235294);
   border-radius: 9px;
   margin-bottom: 20px;
+  text-align: center;
+}
+.noticias .seccion-noti .article h3 {
+  font-size: 30px;
 }
 .noticias .titulo-not {
   font-family: "Brygada 1918", serif;
-  font-size: 4rem;
+  font-size: 80px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -302,16 +312,16 @@ body .analisis-apex .analisis-box-3 .box3-p {
   border-right-width: thick;
   border-top-left-radius: 20px;
   background-color: rgba(112, 128, 144, 0.4588235294);
+  font-size: 30px;
 }
-
-.card-title-over {
+.noticias .card-title-over {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
   font-size: 3rem;
   text-align: center;
   font-family: "Brygada 1918", serif;
-  padding-top: 60px;
+  padding-top: 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(255, 255, 255, 0));
 }
 
@@ -331,6 +341,7 @@ body .articulos {
   background-color: rgba(118, 118, 118, 0.7098039216);
   border-radius: 9px;
   margin-bottom: 50px;
+  text-align: center;
 }
 body .articulos .titulos {
   background-color: black;
@@ -375,7 +386,7 @@ body .pagina-hard {
 body .pagina-hard .titulo-principal {
   text-align: center;
   border: 1px solid white;
-  font-size: 5rem;
+  font-size: 80px;
   font-family: "Brygada 1918", serif;
   margin-bottom: 20px;
 }
@@ -386,8 +397,9 @@ body .pagina-hard .pcs {
 }
 body .pagina-hard .pcs .titulos-pcs {
   font-family: "Brygada 1918", serif;
-  font-size: 3rem;
+  font-size: 73px;
   margin: 30px;
+  text-align: center;
 }
 body .pagina-hard .cont-pc-basica {
   margin: 30px;
@@ -438,37 +450,53 @@ body .pagina-hard .cont-pc-xtreme {
 
 @media (min-width: 320px) and (max-width: 767px) {
   /*home*/
-  .titulo-prin {
+  .principal .titulo-prin {
     font-size: 40px;
   }
   .sub-titulo {
     font-size: 40px;
   }
-  .fila-title h5 {
-    font-size: 2rem;
-    padding-top: 0px;
+  .principal .fila-title .box-contenido-1 h3 {
+    font-size: 36px;
+  }
+  .principal .fila-title .box-contenido-2 h3 {
+    font-size: 36px;
+  }
+  .principal .fila-title .box-contenido-3 h3 {
+    font-size: 36px;
   }
   .boton {
     margin-bottom: 15px;
   }
+  .principal .sub-titulo {
+    font-size: 34px;
+  }
+  .principal .fila-title p {
+    font-size: 15px;
+  }
   /*fin*/
   /*Analisis*/
-  .pasiva-name {
+  body .row-analisis .pasiva-name {
     font-size: 14px;
+    margin: 10px;
   }
-  .q-name {
+  body .row-analisis .q-name {
     font-size: 14px;
+    margin: 10px;
   }
-  .w-name {
+  body .row-analisis .w-name {
     font-size: 14px;
+    margin: 10px;
   }
-  .E-name {
+  body .row-analisis .E-name {
     font-size: 14px;
+    margin: 10px;
   }
-  .R-name {
+  body .row-analisis .R-name {
     font-size: 14px;
+    margin: 10px;
   }
-  .navbar-brand {
+  .navbar .navbar-brand {
     font-size: 22px;
   }
   body .analisis-apex .analisis-img-apex-banner img {
@@ -498,6 +526,15 @@ body .pagina-hard .cont-pc-xtreme {
   body .pagina-hard .pcs .titulos-pcs {
     font-size: 2rem;
   }
+  body .pagina-hard .cont-pc-basica {
+    margin: 5px;
+  }
+  body .pagina-hard .cont-pc-elite {
+    margin: 5px;
+  }
+  body .pagina-hard .cont-pc-xtreme {
+    margin: 5px;
+  }
   /*juegos*/
   body .juegos .titulo-jue h1 {
     font-size: 2rem;
@@ -525,16 +562,13 @@ body .pagina-hard .cont-pc-xtreme {
     flex-flow: column;
     padding-top: 5px;
   }
-  .card-title-over {
+  .noticias .card-title-over {
     white-space: normal;
     overflow: visible;
     text-overflow: clip;
     max-width: 100%;
     font-size: 1rem;
     padding-top: 0;
-  }
-  .fila-title p {
-    font-size: 1rem;
   }
   .card-title-briar {
     font-size: 2rem !important;
@@ -590,7 +624,7 @@ body .pagina-hard .cont-pc-xtreme {
   }
 }
 @media (min-width: 577px) and (max-width: 1200px) {
-  .card-title-over {
+  .noticias .card-title-over {
     white-space: normal;
     overflow: visible;
     text-overflow: clip;

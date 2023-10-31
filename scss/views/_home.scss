@@ -1,66 +1,77 @@
 .principal{
+    color: #EEEEEE;
     .cards{
     padding-top: 1px;
     padding-bottom: 50px;
     }
     .sub-titulo{
     font-family: $letras-primarias;
-    font-size: 80px;
+    font-size: map-get($tamanios,h2);
     text-align: center;
     border: 1px solid;
     margin-bottom: 23px;
     margin-top: 71px;
     border-bottom: none;
     }
-
-}
-.carousel-1{
+    .carousel-1{
     padding-top: 30px;
-}
-.titulo-prin{
+    }
+    .titulo-prin{
     padding-bottom: 44px;
     padding-top: 44px;
     font-family: $letras-primarias;
-    font-size: 80px;
+    font-size: map-get($tamanios,h1);
     border: 1px solid;
     text-align: center;
     margin-bottom: 8px;
     border-block-end-style: none;
-}
-.fila-title{
+    }
+    .fila-title{
     text-align: center;
     font-family: $letras-primarias;
     font-size: 30px;
     padding-top: 14px;
     border: 1px solid;
     margin-bottom: 20px;
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
     h5{
-    font-size: 3rem;
+        font-size: 3rem;
     }
     .box-contenido-1{
         @extend %flex;
+        h3{
+            font-size: 50px;
+        }
     }
     .box-contenido-2{
         @extend %flex;
+        h3{
+            font-size: 50px
+        }
     }
     .box-contenido-3{
         @extend %flex;
+        h3{
+            font-size: 50px;
+        }
+    }
+    }
+    article {
+    text-align: center;
+    }
+    .portada-overlays img{
+    opacity:0.7;
+    }
+    .card-overlays{
+    padding-bottom: 30px;
+    }
+    .middle-page{
+    border-radius: 9px;
     }
 }
 
-body .principal{
-    color: #EEEEEE;
-}
-article {
-    text-align: center;
-}
-main 
-.portada-overlays img{
-    opacity:0.7;
-}
-.card-overlays{
-    padding-bottom: 30px;
-}
-.middle-page{
-    border-radius: 9px;
-}
+
+

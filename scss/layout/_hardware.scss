@@ -3,7 +3,7 @@ body .pagina-hard{
     .titulo-principal{
         text-align: center;
         border: 1px solid white;
-        font-size: 5rem;
+        font-size: map-get($tamanios, h1);
         font-family: $letras-primarias;
         margin-bottom: 20px;
     }
@@ -13,8 +13,9 @@ body .pagina-hard{
         margin-bottom: 30px;
         .titulos-pcs{
             font-family: $letras-primarias;
-            font-size: 3rem;
+            font-size: map-get($tamanios, h2);
             margin: 30px;
+            text-align: center;
         }
     }
     .cont-pc-basica{

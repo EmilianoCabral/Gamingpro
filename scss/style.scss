@@ -1,7 +1,8 @@
-@import 'variables';
+@import 'utilities/variables';
 @import 'base/generales';
-@import 'base/extend';
-@import 'layout/home';
+@import 'utilities/extend';
+@import 'base/maps';
+@import 'views/home';
 @import 'layout/header';
 @import 'layout/analisis';
 @import 'layout/noticias';
@@ -9,4 +10,4 @@
 @import 'layout/lanzamientos';
 @import 'layout/hardware';
 @import 'layout/footer';
-@import 'queries';
+@import 'views/queries';

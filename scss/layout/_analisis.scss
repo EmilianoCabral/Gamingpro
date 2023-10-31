@@ -12,24 +12,29 @@ body {
             border: 1px solid;
         }
         .card-title-briar {
-            font-size: 3rem;
+            font-size: map-get($tamanios,h1);
             font-family: 'Brygada 1918', serif;
             margin: 25px;
         }
         .pasiva-name{
             margin: 25px;
+            font-size: 20px;
         }
         .q-name{
             margin: 25px;
+            font-size: 20px;
         }
         .w-name{
             margin: 25px;
+            font-size: 20px;
         }
         .E-name{
             margin: 25px;
+            font-size: 20px;
         }
         .R-name{
-            margin: 25px
+            margin: 25px;
+            font-size: 20px;
         }
     }
     .analisis-apex {
@@ -42,7 +47,7 @@ body {
         }
         .analisis-titulo {
             color: #EEEEEE;
-        font-size: 4rem;
+        font-size: map-get($tamanios, h2);
         font-family: "Brygada 1918", serif;
         padding: 5px;
         text-align: center;
@@ -103,7 +108,7 @@ body {
             font-size: 20px;
             }
         .titulo-principal-aki {
-            font-size: 4rem;
+            font-size: map-get($tamanios, h2);
             font-family: $letras-primarias;
             margin-bottom: 15px;
         }

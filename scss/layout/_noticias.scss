@@ -1,4 +1,5 @@
 .noticias{
+    color: aliceblue;
     .seccion-noti{
         border: 1px solid;
         border-top: none;
@@ -12,12 +13,15 @@
             background-color: #70809075;
             border-radius: 9px;
             margin-bottom: 20px;
+            text-align: center;
+            h3{
+                font-size: map-get($tamanios, h3);
+            }
         }
     }
-    color: aliceblue;
     .titulo-not{
         font-family: 'Brygada 1918', serif;
-        font-size: 4rem;
+        font-size: map-get($tamanios, h1);
         padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
@@ -44,16 +48,17 @@
             border-right-width: thick;
             border-top-left-radius: 20px;
             background-color: #70809075;
+            font-size: map-get($tamanios, h3 );
         }
     }
-}
-.card-title-over {
+    .card-title-over {
         overflow: hidden;
         text-overflow: ellipsis;
         max-width: 100%;
         font-size: 3rem;
         text-align: center;
         font-family: 'Brygada 1918', serif;
-        padding-top: 60px;
+        padding-top: 100px;
         background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(255, 255, 255, 0));
     }
+}
