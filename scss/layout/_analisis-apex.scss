@@ -1,0 +1,38 @@
+body{
+    .banner-principal-apex {
+                width: 100%;
+            }
+    .analisis-apex {
+        .analisis-titulo {
+        font-size: map-get($tamanios, h2);
+        font-family: $letras-primarias;
+        font-style: $style-font;
+        padding-top: 65px;
+        }
+        .analisis-box-1 {
+            padding-top: 5px;
+            padding-bottom: 20px;
+            font-size: 19px;
+        }
+        .analisis-box-2 {
+            .box2-img {
+                width: 100%;
+            }
+            .box2-p {
+                padding-top: 15px;
+                padding-bottom: 20px;
+                font-size: 19px;
+            }
+        }
+        .analisis-box-3 {
+            .box3-img {
+                width: 100%;
+            }
+            .box3-p {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 19px;
+            }
+            }
+        }
+}

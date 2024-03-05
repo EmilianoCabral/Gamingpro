@@ -4,12 +4,13 @@
     /*home*/
     .principal .titulo-prin{
         font-size: 40px;
+        padding-bottom: 5px;
     }
     .sub-titulo{
         font-size: 40px;
     }
     .principal .fila-title .box-contenido-1 h3 {
-    font-size: 36px;
+        font-size: 36px;
     }
     .principal .fila-title .box-contenido-2 h3{
         font-size: 36px;
@@ -25,6 +26,17 @@
     }
     .principal .fila-title p{
         font-size: 15px;
+    }
+    .caja-2 img {
+        padding: 7px;
+    }
+    .caja-2 .titulo-name h1{
+        font-size: 40px;
+        top: -38px;
+    }
+    .caja-2 .subtitulo h2{
+        font-size: 1.5rem;
+        top: -44px;
     }
     /*fin*/
     /*Analisis*/
@@ -71,22 +83,6 @@
     .analisis-street .parrafo-aki{
         font-size: 14px;
     }
-    /*hardware*/
-    body .pagina-hard .titulo-principal{
-        font-size: 3rem;
-    }
-    body .pagina-hard .pcs .titulos-pcs{
-        font-size: 2rem;
-    }
-    body .pagina-hard .cont-pc-basica{
-        margin: 5px;
-    }
-    body .pagina-hard .cont-pc-elite {
-        margin: 5px;
-    }
-    body .pagina-hard .cont-pc-xtreme{
-        margin: 5px;
-    }
     /*juegos*/
     body .juegos .titulo-jue h1{
         font-size: 2rem;
@@ -96,6 +92,9 @@
         font-size: 14px;
     }
     /*lanzamientos*/
+    .navbar-collapse{
+        justify-content: center;
+    }
     .lanzamientos .title-principal-lanzamientos{
         font-size: 2rem;
     }
@@ -104,7 +103,8 @@
     }
     /*noticias*/
     .noticias .titulo-not{
-        font-size: 2rem;
+        font-size: 60px;
+        padding-bottom: 0px;
     }
     .pie-pagina .grup-2{
         text-align: center;
@@ -175,9 +175,42 @@
         padding-top: 50px;
         padding-bottom: 43px;
     }
-    
+    .noticias .prueba-vanner{
+        flex-direction: column;
+        padding: 29PX;
+    }
+    .noticias .titulo-van h1{
+        font-size: 26px;
+    }
+    .noticias .titulo-van p {
+        font-size: 14px;
+    }
+    .noticias .art-principal .img-position1 img {
+        height: 515px;
+    }
 }
 @media (min-width: 577px) and (max-width: 1200px) {
+    .caja-2 .subtitulo h2{
+        font-size: 30px;
+        top: -60px;
+    }
+    .caja-2 .titulo-name h1{
+        font-size: 80px;
+        top: -48px;
+    }
+    .noticias .titulo-van h1{
+        font-size: 26px;
+    }
+    .noticias .titulo-van p {
+        font-size: 14px;
+    }
+    .noticias .prueba-vanner{
+        flex-direction: column;
+        padding: 29PX;
+    }
+    .navbar-collapse{
+        justify-content: center;
+    }
     .noticias .card-title-over {
         white-space: normal; 
         overflow: visible;

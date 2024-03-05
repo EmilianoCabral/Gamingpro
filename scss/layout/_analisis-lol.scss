@@ -1,0 +1,38 @@
+body{
+    .analisis-briar {
+        padding-top: 5px;
+    }
+    .col__imagen img{
+        border-radius: 5px;
+        width: 100%;
+    }
+    .row-analisis {
+        .card-title-h1 {
+            font-size: 3.75rem;
+            font-family: $letras-primarias;
+            font-style: $style-font;
+            margin: 25px;
+            text-align: center;
+        }
+        .pasiva-name{
+            margin: 25px;
+            font-size: 20px;
+        }
+        .q-name{
+            margin: 25px;
+            font-size: 20px;
+        }
+        .w-name{
+            margin: 25px;
+            font-size: 20px;
+        }
+        .E-name{
+            margin: 25px;
+            font-size: 20px;
+        }
+        .R-name{
+            margin: 25px;
+            font-size: 20px;
+        }
+    }
+}
