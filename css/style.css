@@ -181,66 +181,6 @@ main {
   border-radius: 24px;
 }
 
-/* body{
-    .main{
-        margin-top: 50px;
-    }
-    .juegos {
-        color: aliceblue;
-        .titulo-jue h1{
-            padding-bottom: 44px;
-            padding-top: 44px;
-            font-family: $letras-primarias;
-            font-size: 5rem;
-            text-align: center;
-            border: 1px solid;
-            margin-bottom: 30px;
-        }
-    }
-    .articulos{
-        border-radius: 9px;
-        margin-bottom: 50px;
-        text-align: center;
-        .box-info{
-            border: 1px solid;
-        }
-        .titulos{
-            border-radius: 9px;
-            margin-right: 8px;
-            h2{
-                color: black;
-                position: relative;
-                z-index: 3;
-                top: -22px;
-                background-color: white;
-                display: inline;
-                padding: 5px;
-            }
-        }
-        .list{
-            text-align: justify;
-            margin: 24px;
-        }
-    }
-    .aside{
-    margin: 0;
-        .articulo-aside{
-        margin: 0;
-        background-color:#767676b5;
-        border-radius: 9px;
-        position: sticky;
-        top: 0;
-        .menu{
-            color: white;
-            text-decoration: none;
-        }
-        .titulo-aside{
-            background-color: black;
-            border-radius: 9px;
-            }
-        }
-    }
-}  */
 .header-1 {
   position: relative;
   z-index: 3;
@@ -493,65 +433,6 @@ body .analisis-apex .analisis-box-3 .box3-p {
   text-align: center;
   font-family: "Brygada 1918", serif;
   padding-top: 100px;
-}
-
-body .main {
-  margin-top: 50px;
-}
-body .juegos {
-  color: aliceblue;
-}
-body .juegos .titulo-jue h1 {
-  padding-bottom: 44px;
-  padding-top: 44px;
-  font-family: "Roboto", sans-serif;
-  font-size: 5rem;
-  text-align: center;
-  border: 1px solid;
-  margin-bottom: 30px;
-}
-body .articulos {
-  border-radius: 9px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-body .articulos .box-info {
-  border: 1px solid;
-}
-body .articulos .titulos {
-  border-radius: 9px;
-  margin-right: 8px;
-}
-body .articulos .titulos h2 {
-  color: black;
-  position: relative;
-  z-index: 3;
-  top: -22px;
-  background-color: white;
-  display: inline;
-  padding: 5px;
-}
-body .articulos .list {
-  text-align: justify;
-  margin: 24px;
-}
-body .aside {
-  margin: 0;
-}
-body .aside .articulo-aside {
-  margin: 0;
-  background-color: rgba(118, 118, 118, 0.7098039216);
-  border-radius: 9px;
-  position: sticky;
-  top: 0;
-}
-body .aside .articulo-aside .menu {
-  color: white;
-  text-decoration: none;
-}
-body .aside .articulo-aside .titulo-aside {
-  background-color: black;
-  border-radius: 9px;
 }
 
 .lanzamientos .title-principal-lanzamientos {
