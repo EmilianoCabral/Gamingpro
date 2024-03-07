@@ -20,6 +20,8 @@ iframe {
 
 main {
   background-attachment: fixed;
+  background-color: #212529;
+  color: white;
 }
 
 .noticias .card-title-over, .fila-title .box-contenido-3, .fila-title .box-contenido-2, .fila-title .box-contenido-1 {
@@ -177,10 +179,6 @@ main {
   border-radius: 9px;
 }
 
-.img-fluid {
-  border-radius: 24px;
-}
-
 .header-1 {
   position: relative;
   z-index: 3;
@@ -191,15 +189,15 @@ main {
   padding: 0px;
 }
 
-.navbar-brand {
+.name-logo {
   font-size: 2rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0px;
 }
 
 .navbar-collapse {
   display: flex;
   justify-content: end;
-  color: white;
 }
 
 .image-container {
@@ -247,6 +245,46 @@ body .row-analisis .E-name {
 body .row-analisis .R-name {
   margin: 25px;
   font-size: 20px;
+}
+
+body .main-games {
+  margin-top: 50px;
+}
+body .titulo-jue h1 {
+  padding-bottom: 44px;
+  padding-top: 44px;
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  border: 1px solid;
+  margin-bottom: 30px;
+}
+body .articulos {
+  border-radius: 9px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+body .articulos .box-info {
+  border: 1px solid;
+}
+body .articulos .titulos {
+  border-radius: 9px;
+  margin-right: 8px;
+}
+body .articulos .titulos h2 {
+  color: black;
+  position: relative;
+  z-index: 3;
+  top: -22px;
+  background-color: white;
+  display: inline;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+body .articulos .list {
+  text-align: justify;
+  margin: 24px;
 }
 
 body .banner-principal-apex {
@@ -406,7 +444,7 @@ body .analisis-apex .analisis-box-3 .box3-p {
 }
 .noticias .aside {
   position: sticky;
-  top: 0;
+  top: 5px;
 }
 .noticias .aside .aside-card {
   padding-bottom: 39px;
@@ -415,7 +453,7 @@ body .analisis-apex .analisis-box-3 .box3-p {
   font-size: 2rem;
 }
 .noticias .aside .tarjetas {
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
 .noticias .aside .titulo-card {
   font-family: "Brygada 1918", serif;

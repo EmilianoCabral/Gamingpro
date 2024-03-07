@@ -1,8 +1,7 @@
 body {
-    .main {
+    .main-games {
         margin-top: 50px;
     }
-
     .titulo-jue h1 {
         padding-bottom: 44px;
         padding-top: 44px;
@@ -30,6 +29,8 @@ body {
                 background-color: white;
                 display: inline;
                 padding: 5px;
+                font-family: $letras-primarias;
+                font-style: $style-font;
             }
         }
         .list {
