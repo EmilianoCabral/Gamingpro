@@ -1,53 +1,62 @@
-body {
+.analisis-street {
+    margin-bottom: 20px;
+
+    .analisis-img-street-banner img {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 71px;
     }
-    .analisis-street{
-        margin-bottom: 20px;
-        .analisis-img-street-banner img {
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 71px;
-        }
-        .titulo-galeria {
-            font-family: $letras-primarias;
+
+    .titulo-galeria {
+        font-family: $letras-primarias;
+        font-size: 4rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .parrafo-aki {
+        padding-top: 5px;
+        padding-bottom: 65px;
+        font-size: 20px;
+    }
+
+    .titulo-principal-aki {
+        font-size: map-get($tamanios, h2);
+        font-family: $letras-primarias;
+        margin-bottom: 15px;
+    }
+
+    .skins-aki {
+        text-align: center;
+        font-family: $letras-primarias;
+
+        .titulo-video {
             font-size: 4rem;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-        .parrafo-aki {
-            padding-top: 5px;
-            padding-bottom: 65px;
-            font-size: 20px;
-            }
-        .titulo-principal-aki {
-            font-size: map-get($tamanios, h2);
             font-family: $letras-primarias;
-            margin-bottom: 15px;
+            padding: 15px;
         }
-        .skins-aki {
-            text-align: center;
-            font-family: $letras-primarias;
-            .titulo-video {
-                font-size: 4rem;
-                font-family: $letras-primarias;
-                padding: 15px;
-            }
-            .titulo-aki {
-                font-size: 4rem;
-                padding: 15px;
-                margin-top: 20px;
-            }
-            .titulo-skin {
-                font-size: 2rem;
-            }
-            .image-zoom {
-                overflow: hidden;
-                position: relative;
+
+        .titulo-aki {
+            font-size: 4rem;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .titulo-skin {
+            font-size: 2rem;
+        }
+
+        .image-zoom {
+            overflow: hidden;
+            position: relative;
+
             img {
                 &:hover {
                     transform: scale(1.1);
                 }
+
                 transition: transform 0.3s;
-                }
             }
         }
     }
+}
