@@ -66,7 +66,7 @@ main {
 
 .caja-2 {
   box-sizing: border-box;
-  max-width: 1335px;
+  max-width: 1403px;
   margin: 0px auto;
 }
 .caja-2 .titulo-name {
@@ -273,7 +273,7 @@ body .titulo-jue h1 {
   border: 1px solid;
   margin-bottom: 30px;
 }
-body .articulos .aside-infolol {
+body .articulos .aside-info {
   padding: 38px;
 }
 body .articulos .img-aside {
@@ -312,10 +312,10 @@ body .articulos .titulos h2 {
 body .articulos .list-aside {
   text-align: justify;
   position: relative;
-  top: -170px;
+  top: -200px;
+  padding: inherit;
 }
 body .articulos .list {
-  text-align: justify;
   position: relative;
   top: -54px;
 }

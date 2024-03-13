@@ -26,7 +26,7 @@ body {
         margin-bottom: 30px;
     }
     .articulos {
-        .aside-infolol{
+        .aside-info{
             padding: 38px;
         }
         .img-aside{
@@ -65,10 +65,10 @@ body {
         .list-aside{
             text-align: justify;
             position: relative;
-            top: -170px;
+            top: -200px;
+            padding: inherit;
         }
         .list {
-            text-align: justify;
             position: relative;
             top: -54px;
         }
