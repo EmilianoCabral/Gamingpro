@@ -45,9 +45,10 @@
             color: white;
             margin: 0px;
             position: relative;
-            top: -105px;
+            top: -144px;
             font-weight: 800;
             letter-spacing: 0.03em;
+            color: tan;
         }
     }
     .subtitulo {
@@ -57,7 +58,7 @@
             font-size: 1.5rem;
             color: white;
             position: relative;
-            top: -120px;
+            top: -158px;
             font-family: $letras-primarias;
             font-style: $style-font;
         }
@@ -71,7 +72,6 @@
     padding-bottom: 5px;
     mask-image: linear-gradient(rgb(0, 0, 0) 65%, rgba(0, 0, 0, 0) 98%);
 }
-
 .img-fondo img {
     width: 100%;
     position: absolute;

@@ -22,6 +22,7 @@ main {
   background-attachment: fixed;
   background-color: #212529;
   color: white;
+  padding-bottom: 70px;
 }
 
 .noticias .card-title-over, .fila-title .box-contenido-3, .fila-title .box-contenido-2, .fila-title .box-contenido-1 {
@@ -81,9 +82,10 @@ main {
   color: white;
   margin: 0px;
   position: relative;
-  top: -105px;
+  top: -144px;
   font-weight: 800;
   letter-spacing: 0.03em;
+  color: tan;
 }
 .caja-2 .subtitulo {
   display: flex;
@@ -93,7 +95,7 @@ main {
   font-size: 1.5rem;
   color: white;
   position: relative;
-  top: -120px;
+  top: -158px;
   font-family: "Roboto", sans-serif;
   font-style: italic;
 }
@@ -212,8 +214,9 @@ main {
   transform: rotate(360deg);
 }
 
-body .analisis-briar {
+body .analisis-Hwei {
   padding-top: 5px;
+  padding-bottom: 40px;
 }
 body .col__imagen img {
   border-radius: 5px;
@@ -290,9 +293,6 @@ body .articulos .img-aside .image-cover {
   padding: 10px;
   background-color: #212529;
   border-radius: 5px;
-}
-body .articulos .box-info {
-  border: 1px solid;
 }
 body .articulos .titulos {
   margin-right: 8px;
@@ -586,6 +586,9 @@ body .pagina-hard .cont-pc-xtreme {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .navbar-collapse {
+    justify-content: center;
+  }
   /*home*/
   .principal .titulo-prin {
     font-size: 40px;
@@ -616,11 +619,11 @@ body .pagina-hard .cont-pc-xtreme {
     padding: 7px;
   }
   .caja-2 .titulo-name h1 {
-    font-size: 40px;
+    font-size: 50px;
     top: -38px;
   }
   .caja-2 .subtitulo h2 {
-    font-size: 1.5rem;
+    font-size: 10px;
     top: -44px;
   }
   /*fin*/
@@ -669,22 +672,35 @@ body .pagina-hard .cont-pc-xtreme {
     font-size: 14px;
   }
   /*juegos*/
+  body .articulos .img-aside .image-cover {
+    height: 427px;
+  }
+  body .banner-filter {
+    height: 211px;
+  }
+  body .img-one::after {
+    height: 214px;
+  }
+  body .articulos .list-aside {
+    top: -302px;
+  }
+  body .articulos .titulos h2 {
+    top: -335px;
+    font-size: 3rem;
+    text-align: center;
+  }
+  body .articulos .list {
+    top: -280px;
+  }
   body .juegos .titulo-jue h1 {
     font-size: 2rem;
   }
   body .articulos .list {
     margin: 15px;
-    font-size: 14px;
+    font-size: 15px;
   }
-  /*lanzamientos*/
-  .navbar-collapse {
-    justify-content: center;
-  }
-  .lanzamientos .title-principal-lanzamientos {
-    font-size: 2rem;
-  }
-  .card-text-l {
-    font-size: 14px;
+  body .articulos .list .element-list {
+    padding-bottom: 14px;
   }
   /*noticias*/
   .noticias .titulo-not {
@@ -791,9 +807,6 @@ body .pagina-hard .cont-pc-xtreme {
   .noticias .prueba-vanner {
     flex-direction: column;
     padding: 29PX;
-  }
-  .navbar-collapse {
-    justify-content: center;
   }
   .noticias .card-title-over {
     white-space: normal;
