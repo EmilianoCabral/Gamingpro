@@ -14,13 +14,9 @@ iframe {
   aspect-ratio: 16/9;
 }
 
-.featurette-divider {
-  color: #000000;
-}
-
 main {
   background-attachment: fixed;
-  background-color: #212529;
+  background-color: #121518;
   color: white;
   padding-bottom: 70px;
 }
@@ -35,7 +31,7 @@ main {
   width: 100%;
   border-radius: 24px;
 }
-.principal .probando {
+.principal .imgBanner {
   position: relative;
 }
 
@@ -351,56 +347,44 @@ body .analisis-apex .analisis-box-3 .box3-p {
   font-size: 19px;
 }
 
-.analisis-street {
-  margin-bottom: 20px;
-}
-.analisis-street .analisis-img-street-banner img {
+.articulo img {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 71px;
 }
-.analisis-street .titulo-galeria {
-  font-family: "Roboto", sans-serif;
-  font-size: 4rem;
-  margin-bottom: 15px;
-  text-align: center;
+
+.container-list {
+  list-style: none;
+  padding-left: 0px;
+  gap: 2px;
 }
-.analisis-street .parrafo-aki {
-  padding-top: 5px;
-  padding-bottom: 65px;
-  font-size: 20px;
+
+.related-item {
+  margin-bottom: 24px;
 }
-.analisis-street .titulo-principal-aki {
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 15px;
+
+.related-item a {
+  display: flex;
 }
-.analisis-street .skins-aki {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+
+.related-item img {
+  margin-right: 5px;
 }
-.analisis-street .skins-aki .titulo-video {
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
-  padding: 15px;
+
+.text-paragraph h3 {
+  font-size: 1rem;
 }
-.analisis-street .skins-aki .titulo-aki {
-  font-size: 4rem;
-  padding: 15px;
-  margin-top: 20px;
+
+/* .aside-section{
+    padding: 0px;
+} */
+.section-aside {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(176px, 1fr));
+  grid-gap: 32px;
+  margin-bottom: 32px;
 }
-.analisis-street .skins-aki .titulo-skin {
-  font-size: 2rem;
-}
-.analisis-street .skins-aki .image-zoom {
-  overflow: hidden;
-  position: relative;
-}
-.analisis-street .skins-aki .image-zoom img {
-  transition: transform 0.3s;
-}
-.analisis-street .skins-aki .image-zoom img:hover {
-  transform: scale(1.1);
+
+.article-aside img {
+  width: 100%;
 }
 
 .noticias .art-principal .img-position1 img {
@@ -585,7 +569,7 @@ body .pagina-hard .cont-pc-xtreme {
   color: #EEEEEE;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .navbar-collapse {
     justify-content: center;
   }
@@ -789,7 +773,26 @@ body .pagina-hard .cont-pc-xtreme {
     height: 515px;
   }
 }
-@media (min-width: 577px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text-paragraph h3 {
+    font-size: 8px;
+  }
+  body .articulos .titulos h2 {
+    font-size: 3rem;
+    top: -73px;
+  }
+  .card-text:last-child {
+    padding: 10px;
+  }
+  body .articulos .list-aside {
+    top: -353px;
+  }
+  body .articulos .aside-info {
+    padding: 10px;
+  }
+  body .articulos .img-aside .image-cover {
+    height: 350px;
+  }
   .caja-2 .subtitulo h2 {
     font-size: 30px;
     top: -60px;
@@ -814,6 +817,11 @@ body .pagina-hard .cont-pc-xtreme {
     text-overflow: clip;
     max-width: 100%;
     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .text-paragraph h3 {
+    font-size: 13px;
   }
 }
 

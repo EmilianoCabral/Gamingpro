@@ -1,5 +1,5 @@
 
-@media (min-width:320px) and (max-width:767px){
+@media screen and (max-width: 767px){
     .navbar-collapse{
         justify-content: center;
     }
@@ -204,7 +204,27 @@
         height: 515px;
     }
 }
-@media (min-width: 577px) and (max-width: 1200px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .text-paragraph h3 {
+        font-size: 8px;
+    }
+    body .articulos .titulos h2{
+        font-size: 3rem;
+        top: -73px;
+    }
+    .card-text:last-child{
+        padding: 10px;
+    }
+    body .articulos .list-aside{
+        top: -353px;
+    }
+    body .articulos .aside-info {
+        padding: 10px;
+    }
+    body .articulos .img-aside .image-cover{
+        height: 350px;
+    }
     .caja-2 .subtitulo h2{
         font-size: 30px;
         top: -60px;
@@ -231,4 +251,9 @@
         font-size: 2rem; 
     }
     
+}
+@media screen and (min-width: 1024px) {
+    .text-paragraph h3{
+        font-size: 13px;
+    }
 }
