@@ -569,7 +569,7 @@ body .pagina-hard .cont-pc-xtreme {
   color: #EEEEEE;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-collapse {
     justify-content: center;
   }
@@ -773,7 +773,7 @@ body .pagina-hard .cont-pc-xtreme {
     height: 515px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .text-paragraph h3 {
     font-size: 8px;
   }
@@ -818,11 +818,32 @@ body .pagina-hard .cont-pc-xtreme {
     max-width: 100%;
     font-size: 2rem;
   }
+  .noticias .art-principal .img-position1 img {
+    height: 560px;
+  }
+  .noticias .titulo-van {
+    font-size: 12px;
+  }
+  .noticias .titulo-van h1 {
+    font-size: 36px;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .text-paragraph h3 {
     font-size: 13px;
   }
+  /* .noticias .art-principal .img-position1 img{
+      height: 560px;
+  }
+  .noticias .titulo-van{
+      font-size: 12px;
+  }
+  .noticias .titulo-van h1{
+      font-size: 36px;
+  }
+  .noticias .prueba-vanner{
+      margin-top: 34px;
+  } */
 }
 
 /*# sourceMappingURL=style.css.map */
